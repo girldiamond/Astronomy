@@ -1,0 +1,278 @@
+/* 
+    Document   : style
+    Created on : Mayo 3, 2013, 13:27:32 PM
+    Author     : Carolina Azofeifa chinchilla
+    Description:
+    Purpose of the stylesheet follows. 
+	
+*/
+
+/*Reset*/
+body,p,h1,h2,h3,h4,h5,h6,ul,ol {margin:0;padding:0;}
+ol,ul,ul {list-style:none;}
+html {background:url(../img/layout/fondo.png);}
+
+body {font-family:Arial,verdana, Helvetica, sans-serif;margin:auto;}
+
+/*Wrapper*/
+.wrapper {width:940px;margin:0 auto;padding:0 10px;}
+
+.clearfix:after {
+clear:both;
+display:block;
+content:"";
+visibility:hidden;
+height:1%;
+line-height:0;
+}
+/*Fuentes*/ 
+h1,h4 {font-family:georgia;}
+
+/*Header*/
+.header {background:#000;padding-top:16px;}
+.logo {float:left;display:block;height:47px;}
+
+/*Menu principal nav*/
+.nav {
+margin:0 10px;padding:0;list-style:none inside;
+display:inline-block;
+float:right;height:30px
+}
+.nav li{float:left;margin:0 30px} 
+.nav  a
+{
+display:inline;
+text-decoration:none;text-align:center;
+height:30px;line-height:30px;
+color:#ffffff;font-family:"Arial",verdana, Helvetica, sans-serif
+}  
+.nav a.visited:visited {color:#44b2f1}  
+
+/*Borde divisor*/
+.divider
+{
+clear: both;padding: 0;
+background-image: url(../img/content/border_top.png);
+float:left;height:3px;width:100%	
+}	
+/*Section one*/
+#sectionOne
+{
+margin:2px 0 0 0;
+background:#020a13 url(../img/content/main.jpg) no-repeat center top
+}
+.infone{height:300px;width:335px;padding:52px 0 80px 0}
+.infone h1
+{
+text-align:left;color:#ffffff;
+font-style:italic;font-weight:bold;font-size:48px;line-height:48px
+
+}
+.infone p
+{
+margin-top:36px;text-align:left;color:#176eb0;
+font-size:14px;line-height:24px;font-family:georgia
+} 
+
+/*Container*/.container{}
+
+/*Cofee text div*/
+.cofee_text {height:83px;
+background:url(../img/content/textura1.jpg) left top repeat-x;
+}
+.cofee_text h1 {
+color:#333;
+line-height:83px;
+text-align:center;
+}
+/*Section click*/
+.sectionClick 
+{padding:23px 0;background:url('../img/content/patternBlue.gif') repeat;}  
+.sectionClick p {
+width:620px;float:left;padding:27px 0;
+color:#ffffff;font-size:12px;line-height:24px
+} 
+.square{
+padding:0 0 20px 0;width:300px;float:right;
+position:relative;background:url('../img/content/backgroundClick2.jpg')no-repeat
+} 
+.square h1{
+margin:23px 0;color:#addcfe;
+text-align:center;font-style:italic;font-size:30px 
+} 
+/*Button sprite*/
+.button {
+margin:0 0 0 42px;display:inline-block;width:222px;
+height:43px;line-height:36px;
+color:#fff;font-weight:bold;font-size:14px;
+text-decoration:none; 
+text-align: center; 
+text-transform: uppercase; 
+/*box-shadow: 0px 5px 5px rgba(0,0,0,0.3);
+-webkit-box-shadow: 0px 5px 5px rgba(0,0,0,0.3);*/
+} 
+.button.Click{background:url('../img/content/spriteClick.png');}
+.button.Click:hover{background:url('../img/content/spriteClick.png');background-position: top right!important}
+
+/*Categories*/ 
+.categories{background:url('../img/content/category_fondo.jpg') repeat} 
+.categories h3 {
+text-align:center;
+color:#036;
+font-style:italic;
+font-weight:bold;
+font-family:georgia;
+margin:30px 0 20px
+}
+.categories  p{color:#003366;font-size:12px;font-family:arial;text-align:center} 
+.categories a{color:#003366;text-decoration:none}
+.categories  a:hover{color:#51a9e9}
+
+.img_4Cat {
+border-radius:8px;
+-moz-border-radius:8px;
+-khtml-border-radius:8px;
+-webkit-border-radius:8px
+}
+.col1,.col2,.col3,.col4 {
+float:left;
+width:220px;
+margin-top:32px;
+margin-bottom:32px
+}
+.col2,.col3,.col4{margin-left:20px}
+
+/*Footer*/ 
+#section_foot
+{
+padding-top:44px;
+padding-bottom:60px;
+background:url('../img/content/vector_neptuno.png')no-repeat right center
+}
+#section_foot div{float:left} 
+#section_foot p {color:#03436f;font:12px arial}
+#section_foot h4{color:#fff} 
+
+.social,.Heading{width:220px;margin-right:20px} 
+.newsletter{width:459px}
+
+/*Footer's navigation*/
+ul{list-style:none} 
+#section_foot li {background: url(../img/content/borderLi.png) no-repeat left bottom}
+#section_foot li:first-child{margin-top:20px} 
+ul a
+{
+display:block;line-height:42px;height:42px;
+text-decoration:none;text-align:left; 
+color:#7890a1;font-family: "georgia", Verdana, Arial, sans-serif 
+ 
+} 
+ul a:hover{color:white}
+
+/*Footer's form*/
+.formFoot legend{
+color:#7890a1;margin-top:20px;font:12px arial
+} 
+
+.formFoot input[type='text']{
+width:294px;height:36px;border-radius:8px;
+border:none;margin:10px 25px 25px 0
+}  
+
+.formFoot input[type='submit']{
+width:102px;height:36px;line-height:24px;color:white;
+font-weight:bold;font-family:palatino;border:none;border-radius:8px;
+background:url('../img/content/singButon.png')
+} 
+.formFoot input[type='submit']:hover{
+border:none;height:36px;
+background:url('../img/content/singButon.png');background-position: top right!important 
+
+} 
+.footer{background:url('../img/content/foot_fondo.jpg')repeat}  
+
+/*ABOUT 2ND PAGE*/
+#first_section
+{background:url('../img/content/light.png')no-repeat} 
+.infoAbout{height:;width:660px;padding:50px 0 72px 0}
+.infoAbout h1{color:#fff;font-weight:bold;margin-bottom:30px}
+
+.infoAbout p {color:#dae4eb;font-size:14px;line-height:24px}
+.infoAbout p span {margin:30px 0 13px 0;display:block;text-transform:uppercase;font-weight:bold}
+.infoAbout p:last-child{margin:30px 0 0}
+
+.infoAbout p a{color:#dae4ea;text-decoration:underline} 
+.infoAbout p a:hover{color:#0aa3fa}
+
+/*CONTAC US 3RD PAGE*/
+
+#contact_section{background:;padding:50px 0 72px 0}
+
+/*formulario de contacto*/
+form{width:800px}
+fieldset{border:none}
+.contactUs legend h1{color:#fff;font-weight:bold}
+
+.contactUs input[type='text']
+{
+width:461px;height:36px;border-radius:0;font-size:14px;text-transform:capitalize;	
+border:none;padding-left:10px
+}  
+.contactUs  input.name[type='text']{margin-top:16px;margin-bottom:12px}
+.contactUs  input.mail[type='text']{margin-bottom:34px}
+.contactUs  input.subject[type='text']{margin-bottom:12px}
+
+.contactUs label.enter{ 
+	font-style:itlaic;font-family:'PTSerif';display: inline-block;
+	color: #e8eff4;font-size:14px;line-height:24px;margin-left:20px
+} 
+/*Textarea*/
+textarea { 
+	width:460px;border: none;float: left;
+	max-width:460px;color:#060606;font-family:Arial, Helvetica, sans-serif;
+	height:366px;font-size:14px;text-transform:capitalize;padding:15px 0 0 10px
+}
+.contactUs label.msj{margin-bottom:63px;padding-top:80px;margin-left:20px} 
+
+/*CHECKBOX*/
+.contactUs input[type="checkbox"] {display:none} 
+   
+.contactUs input[type="checkbox"] + label {
+    color:#fcc43d;
+    font-family:Arial, sans-serif;
+    font-size:14px
+	} 
+.contactUs input[type='checkbox']+label span
+{
+display: inline-block;
+width:14px;height:14px;
+vertical-align: middle;
+cursor:pointer;
+margin: -1px 4px 0 20px;
+background:url('../img/content/ck.png')left top no-repeat 
+
+} 
+.contactUs input[type="checkbox"]:checked + label span
+{
+ background:url('../img/content/ck.png') -14px top no-repeat  
+}
+/*Button SEND NOW*/
+
+.contactUs input[type='submit']
+{
+width:220px;height:50px;line-height:24px;margin:40px 0 0 20px;cursor:pointer;
+color:white;font-size:22px;font-weight:bold;font-family:georgia;text-transform:uppercase; 
+font-style:italic;border:none;
+background:url('../img/content/botonContact.png')
+}	
+
+.contactUs input[type='submit']:hover{
+background:url('../img/content/botonContact.png');background-position:top right!important; 
+border:none;height:50px
+} 
+
+
+
+
+
+
